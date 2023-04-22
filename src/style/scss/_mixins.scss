@@ -1,0 +1,9 @@
+@import "./_functions.scss";
+
+@mixin gradient ($count) {
+  @for $i from 1 to $count {
+    &:nth-child(#{$i}n) {
+    background-color: color-count($i);
+    }
+  }
+}

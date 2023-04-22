@@ -1,0 +1,140 @@
+* {
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, sans-serif;
+  font-size: 17px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+body .content {
+  width: 75%;
+  margin: auto;
+}
+
+body .content header {
+  height: 80px;
+  background-color: #dee2e6;
+  border: 2px solid #212529;
+  border-radius: 3px;
+  padding: 0 80px;
+  display: flex;
+}
+
+body .content header .baner {
+  width: 80px;
+  height: 80px;
+  background-color: #212529;
+}
+
+body .content header .baner .baner-text {
+  text-align: center;
+  color: #dee2e6;
+  font-size: 60px;
+}
+
+body .content header .name {
+  margin: auto 80px;
+}
+
+body .content header button {
+  height: 30px;
+  color: #dee2e6;
+  background-color: #212529;
+  border: none;
+  border-radius: 4px;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+
+body .content .card-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 80px 0;
+  display: flex;
+}
+
+body .content .card-container .card {
+  height: 400px;
+  width: 300px;
+  background-color: #dee2e6;
+  border: 2px solid #212529;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+body .content .card-container .card:nth-child(n) {
+  background-color: #141414;
+}
+
+body .content .card-container .card:nth-child(2n) {
+  background-color: #282828;
+}
+
+body .content .card-container .card:nth-child(3n) {
+  background-color: #3c3c3c;
+}
+
+body .content .card-container .card:nth-child(4n) {
+  background-color: #505050;
+}
+
+body .content .card-container .card .img-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+body .content .card-container .card .img-container .type {
+  height: 20px;
+  background-color: #f8f9fa;
+  border: 2px solid #212529;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  padding: 0 5px 2px;
+}
+
+body .content .card-container .card .img-container img {
+  height: 200px;
+  width: 200px;
+}
+
+body .content .card-container .card h2 {
+  text-align: center;
+  color: #dee2e6;
+  margin: 5px 0;
+}
+
+body .content .card-container .card P {
+  text-indent: 20px;
+  text-align: justify;
+  color: #dee2e6;
+}
+
+body .content footer {
+  height: 80px;
+  vertical-align: middle;
+  border-top: 2px solid #212529;
+  justify-content: space-between;
+  padding: 0 80px;
+  display: flex;
+}
+
+body .content footer .author, body .content footer .contacts {
+  margin-top: 25px;
+}
+
+body .content footer .contacts img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=index.68f4ebad.css.map */
